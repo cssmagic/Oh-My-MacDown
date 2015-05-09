@@ -4,7 +4,9 @@
 
 ## 关于 MacDown
 
-[MacDown](http://macdown.uranusjr.com/) 是一款 Mac OS X 下优秀的 Markdown 编辑器，功能完备、性能优良、界面简洁友好。它还是一款开源软件，[代码托管在 GitHub](https://github.com/uranusjr/macdown)。如果你有能力，可以参与开发；如果你有功能建议或发现了 bug，也可以提交 issue。
+[MacDown](http://macdown.uranusjr.com/) 是一款 Mac OS X 下优秀的 Markdown 编辑器，功能完备、性能优良、界面简洁友好。
+
+它还是一款开源软件，[代码托管在 GitHub](https://github.com/uranusjr/macdown)。
 
 ### MacDown 与 Mou
 
@@ -36,3 +38,5 @@ MacDown 主题分为两部分：
 
 * Theme -- 本项目称之为 “Editor Theme” 或 “编辑器主题”
 * CSS -- 本项目称之为 “Preview Theme” 或 “预览主题”
+
+MacDown 还内置了一些语法着色的主题，但暂未提供自定义的方式。
