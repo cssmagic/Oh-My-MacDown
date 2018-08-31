@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, arial, 'Hiragino Sans GB', sans-serif;
+  font-family: Helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   padding: 10px 30px 20px;
@@ -235,12 +235,15 @@ span.float-right {
     margin: 13px auto 0;
     text-align: right; }
 
+pre, code {
+  font-family: Menlo, Consolas, monospace !important;
+}
+
 code, tt {
   margin: 0 2px;
   padding: 3px 3px;
   white-space: nowrap;
   font-size: 14px;
-  font-family: Menlo, Consolas, 'Hiragino Sans GB', monospace;
   /*border: 1px solid #ccc;*/
   background-color: #ddd !important;
   border-radius: 3px; }
