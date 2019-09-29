@@ -109,13 +109,20 @@ h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
 
 li p.first {
   display: inline-block; }
-li {
+ul, ol, li {
   margin: 0; }
 ul, ol {
   padding-left: 30px; }
 
 ul :first-child, ol :first-child {
   margin-top: 0; }
+
+ul + ul,
+ul + ol,
+ol + ol,
+ol + ul {
+	margin-top: 15px;
+}
 
 dl {
   padding: 0; }
@@ -170,6 +177,10 @@ table {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
       margin-bottom: 0; }
+
+table + table {
+	margin-top: 20px;
+}
 
 img {
   max-width: 100%; }
