@@ -114,8 +114,10 @@ ul, ol, li {
 ul, ol {
   padding-left: 30px; }
 
+/*
 ul :first-child, ol :first-child {
   margin-top: 0; }
+*/
 
 ul + ul,
 ul + ol,
