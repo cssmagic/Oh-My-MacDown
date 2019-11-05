@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   padding: 10px 30px 20px;
   color: #333;
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 
 body > *:first-child {
@@ -59,7 +59,7 @@ h1 {
 h2 {
   margin-top: 2em;
   font-size: 24px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
 }
 
 h3 {
@@ -259,8 +259,8 @@ code, tt {
   padding: 3px 3px;
   white-space: nowrap;
   font-size: 14px;
-  /*border: 1px solid #ccc;*/
-  background-color: #ddd !important;
+  background-color: #eee !important;
+  /*border: 1px solid #eee;*/
   border-radius: 3px; }
 
 pre code {
@@ -282,8 +282,8 @@ pre code {
 
 pre {
   margin: 15px 0 !important;
-  background-color: #ddd !important;
-  /*border: 1px solid #ccc;*/
+  background-color: #eee !important;
+  /*border: 1px solid #eee;*/
   font-size: 14px;
   line-height: 1.5;
   overflow: auto;
