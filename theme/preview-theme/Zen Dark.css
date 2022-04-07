@@ -298,6 +298,11 @@ sup {
     vertical-align: super;
     line-height: 0;
 }
+
+del {
+	color: #999;
+}
+
 /*
 * {
 	-webkit-print-color-adjust: exact;
